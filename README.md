@@ -6,20 +6,11 @@ This project aims to build a speech emotion recognition system using the RAVDESS
 Dataset:
 The RAVDESS dataset is used in this project, containing audio recordings of emotional speech with the following emotions:
 
-Neutral
-Calm
-Happy
-Sad
-Angry
-Fearful
-Disgust
-Surprised
+Neutral, Calm, Happy, Sad, Angry, Fearful, Disgust and Surprised
 
 For this project, only the emotions calm, happy, fearful, and disgust are used for classification.
 
 Features Extracted:
-MFCC (Mel Frequency Cepstral Coefficients)
-Chroma (Chroma Short-Time Fourier Transform)
-Mel Spectrogram
+MFCC (Mel Frequency Cepstral Coefficients), Chroma (Chroma Short-Time Fourier Transform) and Mel Spectrogram
 
 These features capture various characteristics of the audio signals, enabling the classification of emotions.
